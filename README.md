@@ -1,8 +1,6 @@
 # pinNumber
 Python draft attempting to generate a 6-digit, easy-to-remember pin 
 
-(Please excuse my sloppy comments in my code).
-
 It's a six digit pin where every pair of digits is a fairly easy-to-remember number
      A:   one number ends in 0 (20, 30, 50, etc.)
      B:   one consists of two repeated digits (22, 33, 55, etc.)
