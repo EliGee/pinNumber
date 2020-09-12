@@ -1,2 +1,2 @@
 # pinNumber
-Python code generating a 6-digit, easy-to-remember PIN!
+Beginner python project to generate a 6 digit, easy-to-remember PIN.
