@@ -29,14 +29,14 @@ pinBitC = generateConsecutive()
 #this isn't an elegant solution, but it's what I've got... for now.
 pinOrder = random.randint(0, 5)
 if pinOrder == 0:
-	print(f'Your pin number is {pinBitA}{pinBitB}{pinBitC}')
+	print(f'Your pin number is {pinBitA}{pinBitB}{pinBitC}.')
 elif pinOrder == 1:
-	print(f'Your pin number is {pinBitA}{pinBitC}{pinBitB}')
+	print(f'Your pin number is {pinBitA}{pinBitC}{pinBitB}.')
 elif pinOrder == 2: 
-	print(f'Your pin number is {pinBitB}{pinBitA}{pinBitC}')
+	print(f'Your pin number is {pinBitB}{pinBitA}{pinBitC}.')
 elif pinOrder == 3:
-	print(f'Your pin number is {pinBitB}{pinBitC}{pinBitA}')
+	print(f'Your pin number is {pinBitB}{pinBitC}{pinBitA}.')
 elif pinOrder == 4: 
-	print(f'Your pin number is {pinBitC}{pinBitA}{pinBitB}')
+	print(f'Your pin number is {pinBitC}{pinBitA}{pinBitB}.')
 else: 
-	print(f'Your pin number is {pinBitC}{pinBitB}{pinBitA}')
+	print(f'Your pin number is {pinBitC}{pinBitB}{pinBitA}.')
