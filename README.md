@@ -12,12 +12,17 @@ I'm using list(x, y, z) to generate a list of numbers counting by 10 through jus
     x is supposed to be the argument of the function, and y and z are always 100 and 10, respectively
 
 BUT I GET THIS ERROR, AS IF BECAUSE I'M USING A FUNCTION THAT ONLY TAKES ONE ARGUMENT, I'M NOT ALLOWED TO USE LIST(X, Y, Z), BECAUSE IT TAKES 3 ARGUMENTS???!
+
+
+
 Traceback (most recent call last):
   File "C:\\Users\\eilee\\OneDrive\\Documents\\My_code\\pinRandomizer.py", line 72, in <module>
     pinBitA = generateIncrements(10)
   File "C:\\Users\\eilee\\OneDrive\\Documents\\My_code\\pinRandomizer.py", line 34, in generateIncrements
     countList = list(start, 100, 10)
 TypeError: list expected at most 1 argument, got 3"""
+
+
 
 Please kill me. 
     -E
