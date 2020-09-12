@@ -34,20 +34,13 @@ import random
 
 #this function does not work
 def generateIncrements(start):
-	countList = list(start, 100, 10)
+	countList = list(range(start, 100, start))
+	print('Here\'s the countlist: ')
+	print(countList)
 	lastIndex = len(countList) - 1 
 	randomIndex = random.randint(0, lastIndex)
 	return countList[randomIndex]
-"""Traceback (most recent call last):
-  File "C:\\Users\\eilee\\OneDrive\\Documents\\My_code\\pinRandomizer.py", line 72, in <module>
-    pinBitA = generateIncrements(10)
-  File "C:\\Users\\eilee\\OneDrive\\Documents\\My_code\\pinRandomizer.py", line 34, in generateIncrements
-    countList = list(start, 100, 10)
-TypeError: list expected at most 1 argument, got 3"""
-
-#ok why? why is it assuming my 3 arguments while generating countList also need to be put into the functino aRGH??
-
-#this function works like a charm, to my great amazement. 
+  
 def generateConsecutive():
 
 	evenOrOdd = random.randint(0,1)
@@ -87,7 +80,6 @@ print(f'Your pin number is {pinBitA}{pinBitB}{pinBitC}')
 #by just... having six different elifs, cuz there's only 6 possible combos
 	#but that's not very elegant... is there a randomization thing that would work better for that??
 		#it would be fun to solve!!!
-
-""" 
+ 
 #GETTING THE LAST NUMBER(index) IN A LIST:
 #print(sampleList[len(sampleList) - 1]) 
